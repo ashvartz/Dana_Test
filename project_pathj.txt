@@ -1,0 +1,429 @@
+The endpoints are different as they are different environments, and this is by design. What we need to work out is which one is correct and which one we can fix. Things are a little messy here right now, and we need to get our house in order. For production, we have to get used to not seeing these. We cannot have access to the production environments in the iPipeline infrastructure. That’s not the way enterprise architecture works and we can’t change it. However, the production API is accessible by endpoints as follows: For the service that the brokerage uses (including 3mark), it’s https://service.brokeragemerged.xrae.com/direct.svc and for the Lite and Direct implementations, it’s https://service.xrae.com/direct.svc 
+
+Our test addresses are https://devservice.xrae.com/direct.svc, https://uslocalservice.xrae.com/direct.svc, https://uklocalservice.xrae.com/direct.svc and https://uatbrokerageservice.xrae.com/direct.svc For UAT we have https://servicebrokeragemerged-uat.xrae.com/direct.svc 
+
+
+
+
+CORP\ashvartz
+
+ <endpoint address="http://localhost:64063/direct.svc" binding="wsHttpBinding"
+        bindingConfiguration="WSHttpBinding_XraeDirectApi" contract="DirectService.XraeDirectApi"
+        name="WSHttpBinding_XraeDirectApi" />
+
+
+  <endpoint address="https://uslocalservice.xrae.com/direct.svc"
+        binding="wsHttpBinding" bindingConfiguration="WSHttpBinding_XraeDirectApi"
+        contract="DirectService.XraeDirectApi" name="WSHttpBinding_XraeDirectApi" />
+
+http://localhost:64063/direct.svc/mex
+
+https://uslocalservice.xrae.com/direct.svc
+----------------------------------------------------------------------------
+
+ <!--web.config appsetting section from 10.102.33.33 E:\XRAE\USLocaleService -->
+    <!--<add key="caseUrl" value="http://dev.direct.xrae.com/" />
+    <add key="xmlPath" value="E:\\Xrae\Rules\Dev\rules.xml" />
+
+    <add key="userName" value="LifePipeAPISysUser_5867" />
+    <add key="password" value="dRuzeS5s" />
+    <add key="gaid" value="1581" />
+    <add key="wsurl" value="https://lifepipeapi.ipipeline.com/TermQuotesAPI.asmx" />-->
+    <!--<add key="logfilepath" value="C:\\tmp\\MyTest.txt"/>-->
+
+
+
+Pipeline2020!
+
+
+ <endpoint address="http://localhost:64063/direct.svc" binding="wsHttpBinding"
+        bindingConfiguration="WSHttpBinding_XraeDirectApi" contract="DirectService.XraeDirectApi"
+        name="WSHttpBinding_XraeDirectApi" />
+
+
+
+support@rolling-solutions.com
+Xrae4321
+
+https://uatuslocale.xrae.com/
+
+prod.xrae.com
+name:
+support@rolling-solutions.com
+password:
+9K+2Zi0X.j
+
+----PRICING---------------------------------------------------
+var resp = PricingEngine.GetPricingCarrier(input, carrierCode);
+Xrae.Pricing.VitalTerm.dll
+
+Application Error - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 10.128.3.150:443Unable to connect to the remote server 
+
+
+uslocalservice.xrae.com 
+https://uslocalservice.xrae.com/direct.svc/mex
+http://localhost:56776/Gateway/45975A3E15F74167BC262F70E79EF069
+
+xraeCommonQAUS
+    <bindings>
+      <wsHttpBinding>
+        <binding name="WSHttpBinding_XraeDirectApi">
+          <security mode="Transport" />
+        </binding>
+      </wsHttpBinding>
+    </bindings>
+   
+
+    <client>
+      <endpoint address="https://uslocalservice.xrae.com/direct.svc"
+        binding="wsHttpBinding" bindingConfiguration="WSHttpBinding_XraeDirectApi"
+        contract="DirectService.XraeDirectApi" name="WSHttpBinding_XraeDirectApi" />
+    </client>
+
+
+-------------------------------------------------------------------
+
+API deployment
+10.102.33.33 and 10.102.33.34
+E:\XRAE\USLocaleService on those servers
+http://localhost:56776/Gateway/45975A3E15F74167BC262F70E79EF069
+
+
+dicenter.xrae.com
+http://www.dicenter.com/underwriting-quote/
+support@rolling-solutions.com
+W2_3Q0dkF&	
+
+https://dicenter.xrae.com/Login
+
+10.102.33.31
+
+Service Reference Settings properties for Bug-Fixes environment.
+https//devservice.xrae.com/direct.svc 
+
+
+http://svn.xrae.com:8080/svn/Xrae.Web.Direct/branches/FarmersIIllustration
+http://localhost:56993/Illustration/new/3D777B15207F7A10
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=8" /> (also tried IE=100, IE=edge, IE=EmulateIE8, etc.) //old
+
+//New
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="description" content="Instant Multi-Carrier Life Insurance Underwriting" />
+
+
+support@rolling-solutions.com
+Xrae4321
+
+remote desktop IP:
+173.203.66.218
+user name is: administrator
+password is: welcome66.218#
+
+C://Git/xrae_brokerage/Xrae.Brokerage.WebApplication/obj/Debug/Package/PackageTmp/
+
+
+https://service.xrae.com/direct.svc
+http://localhost:56776/Gateway/6B4E4B40678E466C87D56AB8924D254F
+----------------------------------------------------------------------------------------
+
+
+ <bindings>
+      <wsHttpBinding>
+        <binding name="WSHttpBinding_XraeDirectApi">
+          <security mode="Transport" />
+        </binding>
+      </wsHttpBinding>
+    </bindings>
+   
+    <client>
+      <endpoint address="https://uslocalservice.xrae.com/direct.svc"
+        binding="wsHttpBinding" bindingConfiguration="WSHttpBinding_XraeDirectApi"
+        contract="DirectService.XraeDirectApi" name="WSHttpBinding_XraeDirectApi" />
+    </client>
+
+
+http://localhost:56776/Gateway/45975A3E15F74167BC262F70E79EF069
+
+    <!-- for development UK -->
+    <!--<add name="xraeCommonDataModel" connectionString="metadata=res://*/Model.CommonDataModel.csdl|res://*/Model.CommonDataModel.ssdl|res://*/Model.CommonDataModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=DEVXRAESQL.DV.ipipenet.com;Initial Catalog=xraeCommonQAUS;Persist Security Info=True;User ID=xrae_data;Password=w1sP}9mtQu;MultipleActiveResultSets=True;Application Name=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+    <add name="xraeDirectDataModel" connectionString="metadata=res://*/Model.DirectDataModel.csdl|res://*/Model.DirectDataModel.ssdl|res://*/Model.DirectDataModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DEVXRAESQL.DV.ipipenet.com;initial catalog=xraeDirectDevQAUS;persist security info=True;user ID=xrae_data;Password=w1sP}9mtQu;multipleactiveresultsets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />-->
+
+
+----------------------------------------------------------------------------------------
+
+
+US //xraeCommonNorthcoast
+http://localhost:56776/Gateway/6E88E30193A641ABACE88401469E1D18
+
+UK //xraeCommonQAUK
+http://localhost:56776/Gateway/2A707DF25E654F4FAD86E78A0C1A34C5
+
+US //xraeCommonQAUS
+http://localhost:56776/Gateway/2A707DF25E654F4FAD86E78A0C1A34C5
+
+
+US //xraeCommonDev
+http://localhost:56776/Gateway/58900964D57F4B0C8E389F2544E20404
+
+
+US // xraeCommonCpgllc
+http://localhost:56776/Gateway/6B4E4B40678E466C87D56AB8924D254F
+
+//US
+http://localhost:56776/Gateway/58900964D57F4B0C8E389F2544E20404
+
+//US //xraeCommonfaiu
+http://localhost:56776/Gateway/2DF9E20B200942DD99DFA6077D411AB2
+
+
+http://localhost:56776/Gateway/6E88E30193A641ABACE88401469E1D18
+
+
+//Dana
+xraeCommonDesignsinlife
+http://localhost:56776/Gateway/39122C2458B543C98F820D320361F035 //Willyam
+http://localhost:56776/Gateway/2A707DF25E654F4FAD86E78A0C1A34C5
+
+http://brokerage.designsinlife.xrae.com/Gateway/B590782425B86F00
+
+
+
+Data Source=sql2.xrae.com\SQLEXPRESS;Initial Catalog=xraeCommonDesignsinlife;Persist Security Info=True;User id=xrae_data;Password=4444;MultipleActiveResultSets=True;Application Name=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+                                                                        
+
+
+//UK
+http://localhost:56776/Gateway/2A707DF25E654F4FAD86E78A0C1A34C5
+
+
+//current brokerage
+http://localhost:56776/Gateway/58900964D57F4B0C8E389F2544E20404
+
+http://localhost:56776/Gateway/2A707DF25E654F4FAD86E78A0C1A34C5
+
+
+//xraeCommonFbisinc
+http://localhost:56776/Gateway/196340DADFA74B759C7C64501F730E6B
+
+//Euclidmanagers
+http://localhost:56776/Gateway/77D3F1C1EB1E46FE86B33C0663682BFA
+http://localhost:56776/Gateway/77D3F1C1EB1E46FE86B33C0663682BFA
+http://euclidmanagers.xrae.com/Login/CarrierResponse/D607F4359FA3BBA0
+
+
+//CommonPremiersmi
+xraeCommonPremiersmi
+http://localhost:56776/Gateway/A8B75DD197254E22A228A58A69025685
+                                                                
+
+
+//BUGFIXED
+http://localhost:56776/Gateway/6E88E30193A641ABACE88401469E1D18
+
+
+//xraecommon3mark
+http://localhost:56776/Gateway/F2C06D960D554CE3A5ADF681AF9846B0
+http://localhost:56776/Gateway/152695A670E944F78121FB4F8CF65262
+
+
+//http://svn.xrae.com:8080/svn/Xrae.Brokerage/branches/Release06142013
+http://localhost:56776/Gateway/58900964D57F4B0C8E389F2544E20404
+
+//for demo.xrae.com
+http://localhost:56776/Gateway/F1D467EBDBB241E1918F3892EE48F946
+
+ (Merce, xraeCommonBrastbellig)
+http://localhost:56776/Gateway/50B82BD79B7646FBA84E68EAF057030B
+
+//print_issue
+http://localhost:56776/Gateway/58900964D57F4B0C8E389F2544E20404
+
+
+http://localhost:56776/Gateway/50B82BD79B7646FBA84E68EAF057030B
+
+
+//xraeCommonLaninsurance
+http://localhost:56776/Gateway/B00EB110F7134BABB1BA8C6D744719B5
+
+
+//firstprotective - xraeCommonFirstprotective
+http://localhost:56776/Gateway/1FDA4A906A9A4D2EBAC6DA3ED56D94D4
+
+http://localhost:/Illustration/new/3D777B15207F7A10
+
+
+http://localhost:56776/Gateway/rolling-solutions.com
+
+http://brokerage.firstprotective.xrae.com/Gateway/1FDA4A906A9A4D2EBAC6DA3ED56D94D4
+
+
+http://brokerage.firstprotective.xrae.com/Gateway/58900964D57F4B0C8E389F2544E20404
+
+//sql2.xrae.com\SQLEXPRESS; xraeCommonLaninsurance
+
+
+//Obrienfg
+//Localhost
+http://localhost:56776/Gateway/716551981A3D4767919EDCBC3DA09B07
+
+//remote server
+http://brokerage.Obrienfg.xrae.com/Gateway/716551981A3D4767919EDCBC3DA09B07
+
+
+
+
+http://localhost:56993/RollingSolutions/Case/80AEC93652B30FBA
+
+http://localhost:56993/RollingSolutions/Case/3D777B15207F7A10
+
+http://localhost:56993/Illustration/new/3D777B15207F7A10
+
+
+http://localhost:56993/Xrae/New/7016ECED
+
+
+http://localhost:56993/Xrae/New/7016ECED
+
+
+http://lite.xrae.com/General/8CE3E8037AD144C0
+
+http://localhost:56776/Gateway/8CE3E8037AD144C0
+
+
+http://localhost:56776/Gateway/E1A2960AF42F4B91B7385C9304A2BA10
+
+
+
+
+//pipeline
+http://localhost:56238/Ipipeline/Case/75DF212E1F0AE200
+
+http://localhost:56238/iPipeline/Case/80AEC93652B30FBA
+
+http://localhost:56238/iPipeline/New/7016ECED
+
+
+http://localhost:56238/Ipipeline/Case/75DF212E1F0AE200
+
+
+//Login
+http://brokerage.xrae.com/Login
+
+
+
+////////////////////////////////////////////////
+http://localhost:56776/Gateway/58900964D57F4B0C8E389F2544E20404
+
+Change RangeValidator  ErrorMessage to relevant message with current year
+
+
+Dynamically set MaximumValue(Year) of project's RangeValidator controls to current year and ErrorMessage to relevant message with currentYear: "Invalid Year:1901-" + currentYear + " Only".
+
+
+
+Add profiles_validators.xml file. The file allows to find RangeValidators controls.
+
+Dynamically change RangeValidator year(MaximumValue, ErrorMessage) by current year using profiles_validators.xml data
+Function getVisibleProfilesValidators() populates datatable from profiles_validators.xml file.
+
+iPipeline
+
+
+
+
+//bankers
+http://webappbankers.xrae.com/Gateway/5308469800C34E888B935CA83F4A6B8D
+
+
+<add name="xraeCommonDataModel" connectionString="metadata=res://*/Model.CommonDataModel.csdl|res://*/Model.CommonDataModel.ssdl|res://*/Model.CommonDataModel.msl;provider=System.Data.SqlClient;provider <res://*/Model.CommonDataModel.csdl%7Cres://*/Model.CommonDataModel.ssdl%7Cres://*/Model.CommonDataModel.msl;provider=System.Data.SqlClient;provider> connection string=&quot;Data Source=sql2.xrae.com <http://sql2.xrae.com>\SQLEXPRESS;Initial Catalog=xraeCommonDesignsinlife;Persist Security Info=True;User id=xrae_data;Password=4444;MultipleActiveResultSets=True;Application Name=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+thewitt: Hi Alex
+
+
+thewitt is online.
+Sent at 12:59 PM on Monday
+ashvartz: Hi Tom
+
+
+thewitt: is now a good time?
+
+
+ashvartz: sure, 'm working on compatibility mode. Please go ahead
+
+
+thewitt: do you remember in your appraisal when i came over last time, you spoke about wanted a promotion from the Associate position?
+
+
+ashvartz: yes, indeed
+
+
+thewitt: well, i listened
+i'd like to congratulate you on a promotion to XRAE Developer
+
+
+ashvartz: thank you very much, it's a great news!
+
+
+thewitt: additionally, we are raising your salary to $91850
+
+
+ashvartz: I really appreciate that, Tom
+
+
+thewitt: you're welcome. i've been pleased with the quality of your work this year, and i felt you deserved the promotion. keep up the good work
+please keep this to yourself for now, i'll make a more formal annoucenment to the team either tomorrow or Wednesday
+
+
+ashvartz: that's 100% garantee
+
+
+thewitt: congrats again. speak soon
+
+
+ashvartz: thank you, so I will receive some kind of email about that
+
+
+thewitt: i think so
+i am confirming this with HR
+
+
+ashvartz: again, Tom, thanks a lot!!!
+
+
+<meta name = "meta_IE8" http-equiv="X-UA-Compatible" content="IE=EmulateIE8 text/html; charset=utf-8;" /> <%--comment row--%>
+      <meta name="description" content="Instant Multi-Carrier Life Insurance Underwriting" /> <%--comment row--%>
+      <%--<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />--%> <%--change meta tag for IE11 compatibility mode, Alex, 01/09/2015--%>
+     
+      <%--<meta http-equiv="X-UA-Compatible" content="IE=10" />--%>
+
+      <title>XRAE Brokerage</title>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+      <script type="text/javascript" src="/View/JavaScript/javascript_general.js"></script>
+      <link rel="stylesheet" type="text/css" href="/View/Styles/styles.css"/>
