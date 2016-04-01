@@ -1,4 +1,4 @@
-DANA NEW TEST1111111111111
+DANA NEW TEST999
 
 The endpoints are different as they are different environments, and this is by design. What we need to work out is which one is correct and which one we can fix. Things are a little messy here right now, and we need to get our house in order. For production, we have to get used to not seeing these. We cannot have access to the production environments in the iPipeline infrastructure. That’s not the way enterprise architecture works and we can’t change it. However, the production API is accessible by endpoints as follows: For the service that the brokerage uses (including 3mark), it’s https://service.brokeragemerged.xrae.com/direct.svc and for the Lite and Direct implementations, it’s https://service.xrae.com/direct.svc 
 
